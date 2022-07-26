@@ -40,6 +40,11 @@ export const socialLinks = [
     link: 'https://www.twitter.com/manazpr',
   },
   {
+    title: 'Linkedin',
+    icon: '/linkedin.png',
+    link: 'https://linkedin.com/in/manazpr',
+  },
+  {
     title: 'Discord',
     icon: '/discord.png',
     link: 'https://discord.com/users/0xManaz#8599',
