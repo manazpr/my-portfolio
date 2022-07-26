@@ -25,7 +25,7 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
       >
         Technologies and languages that I use on a daily basis.
       </p>
-      <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">
+      <div className="grid justify-center grid-cols-4 md:grid-cols-5 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
           <a
             key={skill.link}
