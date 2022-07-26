@@ -4,13 +4,15 @@ My Portfolio
 
 ## Live demo
 
+https://manaz.vercel.app
+
 ## Main technology used
 
-- nextjs, typescript
-- tailwindcss
-- framer-motion (animation)
-- react-locomotive-scroll (parallax scroll)
-- graphql ([GraphCMS](https://graphcms.com/))
+- Nextjs, Typescript
+- Tailwindcss
+- Framer-Motion (animation)
+- React-locomotive-scroll (parallax scroll)
+- Graphql ([GraphCMS](https://graphcms.com/))
 
 ## Installation
 
@@ -21,6 +23,7 @@ My Portfolio
 ```env
 NEXT_PUBLIC_GA_ID=
 NEXT_PUBLIC_FORM_URL=
+GRAPHCMS_ENV=
 ```
 
 - NEXT_PUBLIC_GA_ID: Google Analytics
