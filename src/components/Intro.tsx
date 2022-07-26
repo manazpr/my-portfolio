@@ -56,7 +56,7 @@ const Intro: FC = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 1.4 }}
         className="absolute left-[calc(50%-23px)] bottom-[10vh] cursor-pointer"
-        href="#who"
+        href="#profile"
         data-scroll-to
       >
         <BiChevronsDown className="animate-bounce" size={56} />
