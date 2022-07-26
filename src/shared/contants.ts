@@ -44,4 +44,9 @@ export const socialLinks = [
     icon: '/discord.png',
     link: 'https://discord.com/users/0xManaz#8599',
   },
+  {
+    title: 'Behance',
+    icon: '/behance.png',
+    link: 'https://behance.net/manazpr',
+  },
 ];
