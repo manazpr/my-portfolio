@@ -4,7 +4,7 @@ My Portfolio
 
 ## Live demo
 
-https://manaz.vercel.app
+[Link](https://manaz.vercel.app)
 
 ## Main technology used
 
