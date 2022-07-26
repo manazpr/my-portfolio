@@ -54,4 +54,9 @@ export const socialLinks = [
     icon: '/behance.png',
     link: 'https://behance.net/manazpr',
   },
+  {
+    title: 'Lens',
+    icon: '/lens.jpeg',
+    link: 'https://lenster.xyz/u/manaz.lens',
+  },
 ];
