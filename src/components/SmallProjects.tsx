@@ -6,7 +6,6 @@ interface SmallProjectsProps {
 }
 
 const SmallProjects: FC<SmallProjectsProps> = ({ projects }) => {
-  console.log(projects);
   return (
     <div className="flex justify-center mx-[5vw] mt-16">
       <div className="w-full max-w-[1100px]">

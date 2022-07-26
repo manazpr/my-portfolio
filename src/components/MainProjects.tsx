@@ -8,7 +8,6 @@ interface MainProjectsProps {
 }
 
 const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
-  console.log(projects);
   return (
     <>
       <h1 className="mb-10 text-4xl text-center md:mb-20">Project Showcase</h1>
