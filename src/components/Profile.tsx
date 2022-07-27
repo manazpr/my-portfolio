@@ -25,8 +25,8 @@ const Who: FC = () => {
         alt=""
       />
       <div>
-        <h1 data-scroll data-scroll-speed="0.5" className="title text-[40px]">
-          Hey, I&apos;m Manaz
+        <h1 data-scroll data-scroll-speed="0.5" className="title text-[30px]">
+          Hey, I&apos;m Manaz 👋
         </h1>
 
         {/* Hide my age :v */}
