@@ -20,11 +20,10 @@ const Who: FC = () => {
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          I am Manaz, a self-taught web developer/designer with interest in
-          NFTs, Gaming and Layer 2 Scaling solutions. I am deeply passionate
-          about working in Web3 and my key areas of interests include NFTs,
-          play-to-earn gaming and ZK Rollup tech. Currently I&apos;m learning
-          Three.js and Cairo.
+          I am Manaz, a self-taught web developer/designer. I am deeply
+          passionate about working in Web3 and my key areas of interests include
+          NFTs, play-to-earn gaming and ZK Rollup tech. Currently I&apos;m
+          learning Three.js and Cairo.
         </p>
       </div>
     </div>
