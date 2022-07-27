@@ -25,12 +25,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Manaz PR Portfolio" />
         <meta property="og:description" content="Manaz PR Portfolio" />
-        <meta property="og:image" content="/avatar.jpg" />
+        <meta property="og:image" content="/preview.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Manaz PR Portfolio" />
         <meta property="twitter:description" content="Manaz PR Portfolio" />
-        <meta property="twitter:image" content="/avatar.jpg" />
+        <meta property="twitter:image" content="/preview.png" />
       </Head>
       <LazyMotion features={domAnimation}>
         <Component {...pageProps} />
