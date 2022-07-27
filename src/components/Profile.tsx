@@ -1,6 +1,17 @@
 import { FC } from 'react';
+import Typed from 'react-typed';
 
 const Who: FC = () => {
+  const talkAbout = [
+    'React',
+    'JavaScript',
+    'TypeScript',
+    'GraphQL',
+    'Next.js',
+    'HTML',
+    'CSS',
+    'Web3',
+  ];
   return (
     <div
       id="profile"
@@ -15,15 +26,27 @@ const Who: FC = () => {
       />
       <div>
         <h1 data-scroll data-scroll-speed="0.5" className="title text-[40px]">
-          gm!
+          Hey, I&apos;m Manaz
         </h1>
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          I am Manaz, a self-taught web developer/designer. I am deeply
-          passionate about working in Web3 and my key areas of interests include
-          NFTs, play-to-earn gaming and ZK Rollup tech. Currently I&apos;m
-          learning Three.js and Cairo.
+          I am a self-taught web developer/designer specialized in front-end
+          development using React and Typescript. I am deeply passionate about
+          the Web3 space and my key areas of interests include NFTs,
+          play-to-earn gaming and ZK Rollup tech. You can talk to me about {''}
+          <Typed
+            loop
+            typeSpeed={80}
+            backSpeed={20}
+            strings={talkAbout}
+            smartBackspace
+            backDelay={1000}
+            loopCount={0}
+            showCursor
+            cursorChar="|"
+          />
+          .
         </p>
       </div>
     </div>
