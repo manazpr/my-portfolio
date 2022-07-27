@@ -1,22 +1,12 @@
 # Manaz PR Portfolio
 
-My Portfolio
+[![Manaz PR - Frontend Developer from India](https://manaz.vercel.com/)
 
-## Live demo
-
-[Link](https://manaz.vercel.app)
-
-## Main technology used
-
-- Nextjs, Typescript
-- Tailwindcss
-- Framer-Motion (animation)
-- React-locomotive-scroll (parallax scroll)
-- Graphql ([GraphCMS](https://graphcms.com/))
+This is my portfolio website, proudly built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind](https://tailwindcss.com/). The content is managed through [GraphCMS](https://graphcms.com/) and accessed via GraphQL endpoints using [Apollo Client](https://www.apollographql.com/).
 
 ## Installation
 
-- Clone the project
+- Fork or Clone the project
 - Run `yarn install`
 - Example .env file:
 
@@ -30,7 +20,13 @@ GRAPHCMS_ENV=
 - NEXT_PUBLIC_FORM_URL: Form to submit contact info ([endpoint.space](https://www.endpoint.space/) recommended)
 
 - Run `yarn dev`
+- Your site is now running at `http://localhost:3000`!
 
-## Summary
+## Learn More
 
-👉 If you like this project, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
