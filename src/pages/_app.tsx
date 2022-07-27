@@ -19,17 +19,17 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <title>{`Manaz PR Portfolio`}</title>
 
-        <meta name="title" content="Manaz PR Portfolio" />
-        <meta name="description" content="Manaz PR Portfolio" />
+        <meta name="title" content="Manaz PR" />
+        <meta name="description" content="Manaz PR" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Manaz PR Portfolio" />
-        <meta property="og:description" content="Manaz PR Portfolio" />
+        <meta property="og:title" content="Manaz PR" />
+        <meta property="og:description" content="Developer // Designer" />
         <meta property="og:image" content="/preview.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Manaz PR Portfolio" />
-        <meta property="twitter:description" content="Manaz PR Portfolio" />
+        <meta property="twitter:title" content="Manaz PR" />
+        <meta property="twitter:description" content="Developer // Designer" />
         <meta property="twitter:image" content="/preview.png" />
       </Head>
       <LazyMotion features={domAnimation}>
