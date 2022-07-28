@@ -53,7 +53,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]"
+                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#3F3FFF] hover:bg-[#3535ff]"
               >
                 <BiLinkExternal size={25} />
                 <span> Live Demo</span>
