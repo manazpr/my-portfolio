@@ -21,7 +21,6 @@ export const canvasImages = [
   'vscode',
   'git',
   'vite',
-  'webpack',
   'hardhat',
 ].map(
   (icon) =>
