@@ -22,7 +22,7 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
         data-scroll-speed="1"
         className="description text-lg text-center my-[30px]"
       >
-        Technologies and languages that I use on a daily basis.
+        Languages and frameworks that I use on a daily basis.
       </p>
       <div className="grid justify-center grid-cols-4 md:grid-cols-5 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
