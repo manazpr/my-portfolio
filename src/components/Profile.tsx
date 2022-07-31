@@ -32,9 +32,10 @@ const Who: FC = () => {
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
           I am a self-taught web developer/designer specialized in front-end
-          development using React and Typescript. I am deeply passionate about
-          the Web3 space and my key areas of interests include NFTs,
-          play-to-earn gaming and ZK Rollup tech. You can talk to me about {''}
+          development using React and Typescript and Blockchain using Solidity.
+          I am deeply passionate about the Web3 space and my key areas of
+          interests include NFTs, play-to-earn gaming and ZK Rollup tech. You
+          can talk to me about {''}
           <Typed
             loop
             typeSpeed={80}
