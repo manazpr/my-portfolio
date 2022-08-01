@@ -17,7 +17,7 @@ const Canvas: FC = () => {
       return image;
     });
 
-    let ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
+    const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
 
     const mouse = {
       x: -1000,
@@ -92,11 +92,11 @@ const Canvas: FC = () => {
 
     let particles: Particle[] = [];
 
-    let expectedSize = Math.round(innerWidth / 20);
+    const expectedSize = Math.round(innerWidth / 20);
     let SIZE = expectedSize < 30 ? 30 : expectedSize > 50 ? 50 : expectedSize;
 
     const setup = () => {
-      let expectedSize = Math.round(innerWidth / 20);
+      const expectedSize = Math.round(innerWidth / 20);
       SIZE = expectedSize < 30 ? 30 : expectedSize > 50 ? 50 : expectedSize;
 
       particles = images.map(
