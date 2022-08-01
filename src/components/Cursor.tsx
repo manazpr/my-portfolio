@@ -52,7 +52,7 @@ const Cursor: FC = () => {
     <div
       ref={cursorRef}
       className="fixed z-50 hidden transition duration-75 -translate-x-1/2 -translate-y-1/2 bg-transparent border border-white rounded-full pointer-events-none w-7 h-7"
-    ></div>
+     />
   );
 };
 

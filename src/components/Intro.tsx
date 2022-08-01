@@ -26,14 +26,14 @@ const Intro: FC = () => {
               fill="none"
               stroke="#FFF"
               strokeWidth="3"
-            ></m.path>
+             />
             <m.path
               initial={{ fill: '#ffffff00' }}
               animate={{ fill: '#ffffff' }}
               transition={{ delay: 0.7 + index / 10, duration: 0.6 }}
               fill="none"
               d={character}
-            ></m.path>
+             />
           </Fragment>
         ))}
       </svg>
