@@ -37,7 +37,7 @@ This is my portfolio website, proudly built with [Next.js](https://nextjs.org/),
 ```env
 NEXT_PUBLIC_GA_ID=
 NEXT_PUBLIC_FORM_URL=
-GRAPHCMS_ENV=
+NEXT_PUBLIC_GRAPHCMS=
 ```
 
 - NEXT_PUBLIC_GA_ID: Google Analytics
