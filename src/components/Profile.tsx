@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Typed from 'react-typed';
 
-const Who: FC = () => {
+const Profile: FC = () => {
   const talkAbout = [
     'React',
     'JavaScript',
@@ -54,4 +54,4 @@ const Who: FC = () => {
   );
 };
 
-export default Who;
+export default Profile;
